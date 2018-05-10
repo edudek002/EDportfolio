@@ -50,6 +50,11 @@ header {
   text-align: center;
 }
 
+.blueLetNC {
+  font-size: 24px;
+  color: #80aaff;
+}
+
 /*Image styling*/
 
 img {

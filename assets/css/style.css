@@ -1,12 +1,19 @@
-
 body {
   width: 100%;
   font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
-  color: #777777;
+  /* color: #777777; */
+  background-image: url("../images/background7.jpg");
+  background-size: cover;
+
 }
 
-.navbar{  
-  background-color: #80aaff;
+.navbar{
+  color: #e6eeff; 
+  /* color: #ffd11a; */
+} 
+
+.img-circle {
+  border-radius: 50%;
 }
 
 header {
@@ -32,27 +39,83 @@ header {
 
 /*Letter styling*/
 
-.primaryTitle {
+.mainTitle {
   font-size: 40px;
-  color: #ffd11a;
+  color: #b3cbff;
+  /* color: #ffd11a; */
   text-align: center;
+}
+
+.primaryTitle {
+  font-size: 80px;
+  color: #e6eeff;
+  /* color: #ffd11a; */
+  text-align: left;
 }
 
 .secondaryTitle {
   font-size: 24px;
+  color: #b3cbff;
+  /* color: #ffd11a; */
+  text-align: center;
+}
+
+.navTitle {
+  font-size: 20px;
   color: #ffd11a;
+
+  /* color: #ffd11a; */
   text-align: center;
 }
 
 .blueLet {
   font-size: 24px;
-  color: #80aaff;
+  color: #b3cbff;
   text-align: center;
+  line-height: 1.3;
+  letter-spacing: 3px;
 }
 
 .blueLetNC {
   font-size: 24px;
-  color: #80aaff;
+  color: #b3cbff;
+  text-align: left;
+  line-height: 1.3;
+  letter-spacing: 3px;
+}
+
+.blueLet4 {
+  font-size: 24px;
+  color: #b3cbff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blueLet3 {
+  font-size: 24px;
+  color: #80a8ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blueLet2 {
+  font-size: 24px;
+  color: #4d85ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blueLet1 {
+  font-size: 24px;
+  color: #1a62ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.name {
+  font-size: 100px;
+  color: #e6eeff;
   text-align: left;
 }
 
@@ -73,7 +136,8 @@ img {
 /*Footer*/
 
 .card-footer {
-  background-color: #80aaff;
+  /* background-color: #80aaff; */
+  color: white;
   height: 60px;
   position: fixed;
   left: 0;

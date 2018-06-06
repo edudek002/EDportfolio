@@ -38,6 +38,12 @@ header {
   }
 
 /*Letter styling*/
+.jobTitle {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
 
 .mainTitle {
   font-size: 36px;
